@@ -1,0 +1,108 @@
+*{
+    background-color: rgb(10, 187, 251);
+}
+
+body {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 10vh;
+}
+
+@media all and (min-width: 1000px) {
+    #Screen {
+        margin-top: 10vh;
+        height: 20vh;
+        width: 30%;
+        border-color: black;
+        background-color: grey;
+        margin-left: 35%;
+        border-width: 0.2vw;
+        border-style: solid;
+        text-align: end;
+    }
+
+    .btn,
+    .opr,
+    .clr,
+    .eql {
+        height: 5vh;
+        width: 5vw;
+        background-color: black;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+        transition: all;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width:999px) {
+    
+    #Screen {
+        margin-top: 7vh;
+        height: 20vh;
+        width: 50%;
+        border-color: black;
+        background-color: grey;
+        margin-left: 25%;
+        border-width: 0.2vw;
+        border-style: solid;
+        text-align: end;
+    }
+
+    .btn,
+    .opr,
+    .clr,
+    .eql {
+        height: 8vh;
+        width: 9vw;
+        background-color: black;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+        transition: all;
+    }
+}
+
+@media all and (max-width: 599px) {
+    #Screen {
+        margin-top: 5vh;
+        height: 15vh;
+        width: 56%;
+        border-color: black;
+        background-color: grey;
+        margin-left: 22%;
+        border-width: 0.2vw;
+        border-style: solid;
+        text-align: end;
+    }
+
+    .btn,
+    .opr,
+    .clr,
+    .eql {
+        height: 7vh;
+        width: 10vw;
+        background-color: black;
+        color: white;
+        font-size: large;
+        text-align: center;
+        transition: all;
+    }
+}
+
+
+
+#Input table {
+    width: 100%;
+}
+
+#Input table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn:hover, .opr:hover, .clr:hover, .eql:hover{
+    background-color: rgb(44, 44, 44);
+}
